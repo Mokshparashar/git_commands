@@ -1,0 +1,20 @@
+rm -rf .git = 					folder is not a git repo anymore
+git diff = 					compare working directory with staging area
+git diff --staged = 				compare staging area with previous commit
+git rm <file name> = 				deletes the file and auto commit the work
+git mv <current file name> <new file name> = 	can change the file name
+git rm --cached <file name> = 			untracked the file 
+git log -p = 					returns the previous commits with their differences
+git log -p -any number = 			returns only the number provided commits
+git log --stat = 				gives a brief overview of commits of a repo
+git log --pretty=oneline = 			gives a oneliner for each commit
+git log --pretty=short   = 			gives a short details for each commit
+git log  --pretty=full   = 			gives a full overview of each commit
+git log  --since=n.days/weeks/years = 		gives the commits for the n time
+git commit --amend = 				can edit the previous commits
+git restore --staged <file name> = 		revert the staged file to non staged area
+git restore <file name>=			revert the modified file to the previous commit
+git checkout -- <file name> = 			convert the modified file in the previous commit
+git checkout -f = 				convert the all modified files in the previous commit
+git config --global alias.shortcut 'command' 	create a shortcut for specific command
+git checkout -b BRANCH NAME=			create a branch and bring you in that branch
