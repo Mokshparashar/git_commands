@@ -22,3 +22,5 @@ git branch = 					gives the name of all branches
 git branch -v = 				gives the more details of the last commits of all branches
 git branch --merged = 				gives the name of the branches that we have merged
 git branch --no-merged = 			gives the name of the branches that we have not merged 
+git push origin BRANCH NAME = 			pushes the given branch to the remote repo
+git push -d origin BRANCH NAME =		deletes the given branch from the remote repo
