@@ -18,3 +18,7 @@ git checkout -- <file name> = 			convert the modified file in the previous commi
 git checkout -f = 				convert the all modified files in the previous commit
 git config --global alias.shortcut 'command' 	create a shortcut for specific command
 git checkout -b BRANCH NAME=			create a branch and bring you in that branch
+git branch = 					gives the name of all branches 
+git branch -v = 				gives the more details of the last commits of all branches
+git branch --merged = 				gives the name of the branches that we have merged
+git branch --no-merged = 			gives the name of the branches that we have not merged 
